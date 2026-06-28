@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>受保护的文档查阅</title>
+    <title>车间中控检验规程</title>
     <!-- 引入 Mozilla 官方的 pdf.js CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <style>
@@ -40,7 +40,7 @@
         pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
         // 你的 PDF 文件路径（需放在同一仓库下）
-        const url = '产品及原材料检验规程.pdf';
+        const url = '车间中控检验规程.pdf';
 
         // 异步加载 PDF
         pdfjsLib.getDocument(url).promise.then(pdf => {
